@@ -1,0 +1,107 @@
+html,body{
+font-family: "Verdana", Geneva, sans-serif;
+}
+
+#top_nav{
+	text-align: center;
+	width: 100%;
+	background: rgba(41,41,41,1.0);
+	box-shadow: 0px 2px 15px #eee;
+	opacity:1.0;
+}
+
+.info{
+	font-size: 15px;
+}
+#home_info h1 .red{
+
+	/*
+	color: #3f3f3f;
+	background-color: white;
+	padding: 10px;
+	opacity: .8;*/
+	color: red;
+}
+#home_info h1 .white{
+	/*
+	color: #3f3f3f;
+	background-color: white;
+	padding: 10px;
+	opacity: .8;*/
+	color: black;
+}
+#home_info >h1> img{
+	opacity: 1.0;
+
+	}
+#home_info{
+		margin-top:25px;
+		font-family: proxima-nova-soft,sans-serif;
+		font-weight: 400;
+		letter-spacing: 8px;
+		font-size: 30px;
+	
+}
+#home{
+	background: url(img/ny3.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;	
+ 	height:auto;
+	width: 100%;
+	position: relative;
+	vertical-align: middle;
+	overflow:auto;
+
+}
+#examples{
+	text-align:center;
+	background: url(img/brushed_alu.png) repeat fixed;
+ height:auto;
+	width: 100%;
+	position: relative;
+}
+
+
+#places{
+background: url(img/ny1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+ height:auto;
+	width: 100%;
+	position: relative;
+	overflow:auto;
+}
+#work{
+	background: url(img/ny2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;	
+ height:auto;
+	width: 100%;
+	position: relative;
+	overflow:auto;
+}
+.content{
+	overflow:auto;
+	height:100%;
+}
+.full-page{
+	height:100%;
+	padding:50px;
+}
+.work:hover{
+
+	opacity:0.8;
+}
+.white_bg{
+		color: #3f3f3f;
+		background-color: white;
+		padding: 15px;
+		opacity: .8;
+		height:100%;
+}
